@@ -1,7 +1,7 @@
 
 $('#pricing .nav-link').click(function() {
 	imgName1=$(this).attr('href');
-	newList()
+	newList();
 });
 window.onresize = function() {
 	newList();
@@ -185,6 +185,7 @@ $(function(){
 					)
 				};
 				newList();
+				$(".xScroll").xScroll();
 			};
 
 		}

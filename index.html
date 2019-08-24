@@ -14,6 +14,7 @@
 		<!-- main template stylesheet -->
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/responsive.css">
+		<link rel="stylesheet" href="https://cdn.bootcss.com/animate.css/3.7.0/animate.css">
 	</head>
 
 	<body>
@@ -360,6 +361,44 @@
 		<script src="js/wow.js"></script>
 		<script src="js/jquery.counterup.min.js"></script>
 		<script src="js/theme.js"></script>
+		<script>
+			var xScroll = function(el) {
+				xScroll.prototype.init(el)
+			};
+			xScroll.prototype = {
+				init: function(_el) {
+					this.start(_el);
+					$(window).on('scroll', function() {
+						xScroll.prototype.start(_el);
+					})
+				},
+				start: function(_el) {
+					$(_el).each(function() {
+						var _self = $(this);
+						var xScrollTop = $(window).scrollTop();
+						var isWindowHeiget = $(window).height() * 0.8;
+						var _class = $(this).data('animation');
+						if(xScrollTop + isWindowHeiget > $(this).offset().top) {
+							_self.addClass(_class);
+							_self.css({
+								"visibility": "visible"
+							})
+						}
+					})
+				}
+			};
+			$.fn.extend({
+				xScroll: function(config) {
+					$(this).each(function() {
+						$(this).addClass("animated");
+						$(this).css({
+							"visibility": "hidden"
+						});
+						new xScroll($(this))
+					})
+				}
+			})
+		</script>
 	</body>
 
 </html>
