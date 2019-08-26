@@ -26,6 +26,9 @@
 			"ObjectName": "APP/icon/黑白线性填充.png"
 		}, {
 			"id": "",
+			"ObjectName": "APP/icon/summer_icon.jpg"
+		}, {
+			"id": "",
 			"ObjectName": "APP/引导页/内容分类引导1.png"
 		}, {
 			"id": "",
@@ -263,6 +266,21 @@
 			"ObjectName": "WEB/设计规范/综合治税规范.png"
 		}, {
 			"id": "",
+			"ObjectName": "平面设计/海报/海报UIdesign.png"
+		}, {
+			"id": "",
+			"ObjectName": "平面设计/海报/海报粗糙化.png"
+		}, {
+			"id": "",
+			"ObjectName": "平面设计/海报/海报渐变日出.png"
+		}, {
+			"id": "",
+			"ObjectName": "平面设计/海报/海报眩晕.png"
+		}, {
+			"id": "",
+			"ObjectName": "平面设计/海报/渐变海报月落.png"
+		}, {
+			"id": "",
 			"ObjectName": "平面设计/LOGO设计/情报公交LOGO.png"
 		}, {
 			"id": "",
@@ -402,9 +420,6 @@
 		}, {
 			"id": "",
 			"ObjectName": "平面设计/插画/星球.png"
-		}, {
-			"id": "",
-			"ObjectName": "APP/icon/summer_icon.jpg"
 		}
 	]
 }

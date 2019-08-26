@@ -635,7 +635,6 @@
 
 .card-infos {
 	padding: 0.25rem 0.5rem 0.25rem 0.5rem;
-	color: var(--text-color);
 }
 .card-infos h2{
 	font-size: .6rem;
@@ -647,7 +646,7 @@
 	line-height: 1.4;
 	margin: 0 0 5px;
 	display: inline-block;
-	background-color: var(--card-bg-badeg);
+	background-color: #dfe5e9;
 	padding: 0 5px;
 	border-radius: 4px;
 }
