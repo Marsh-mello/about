@@ -46,7 +46,7 @@ $(function(){
 			var jsonDX = [];
 			
 			var urlTitle = 'https://marshmello.oss-cn-hangzhou.aliyuncs.com/';
-			var urlResize = '?x-oss-process=image/resize,p_50';
+			var urlResize = '?x-oss-process=image/resize,p_30/quality,q_100/watermark,text_6buE5a6P5piM,type_ZmFuZ3poZW5naGVpdGk,color_ffffff,size_12,shadow_20,x_10,y_10';
 			$('.sortable__nav a').click(function() {
 				$('.sortable__nav a').removeClass('is-active');
 				$(this).addClass('is-active');
